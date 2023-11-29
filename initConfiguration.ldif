@@ -1,0 +1,3 @@
+dn: ou=users,dc=billetin,dc=com
+objectClass: organizationalUnit
+ou: users
