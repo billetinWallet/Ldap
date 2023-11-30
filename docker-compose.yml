@@ -51,9 +51,3 @@ services:
       - "8085:80"
     links:
       - billetin-ldap
-  fastapi:
-    build: .
-    ports:
-      - "8000:8000" 
-    links:
-    - billetin-ldap
